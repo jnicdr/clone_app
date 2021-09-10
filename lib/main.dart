@@ -1,20 +1,13 @@
+import 'package:clone_app/screens/greeting.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MaterialApp(home: Home()));
+void main() => runApp(MyApp());
 
-class Home extends StatefulWidget {
-  // ignore: prefer_const_constructors_in_immutables
-  Home({Key? key}) : super(key: key);
-
-  @override
-  _HomeState createState() => _HomeState();
-}
-
-class _HomeState extends State<Home> {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: Colors.white,
+    return MaterialApp(
+      home: Greeting(),
     );
   }
 }
