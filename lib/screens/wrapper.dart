@@ -1,4 +1,5 @@
 import 'package:clone_app/screens/authenticate/authenticate.dart';
+import 'package:clone_app/screens/greeting.dart';
 import 'package:flutter/material.dart';
 
 class wrapper extends StatefulWidget {

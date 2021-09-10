@@ -17,7 +17,7 @@ class _GreetingState extends State<Greeting> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      backgroundColor: Colors.brown,
+      backgroundColor: Colors.blueAccent,
       body: Center(
           child: Text(
         'CLONE APP COFFEE',
